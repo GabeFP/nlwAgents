@@ -17,3 +17,16 @@
 #### Ex: 
 - uma live de React, no inicio da live se explica o que é React e alguem aos 50min de live fala "Não sei o que é react"
 - a ideia é que a IA consiga responder automaticamente essa pessoa e sempre deixando em aberto se precisa de uma interação pessoal
+
+## Projeto
+- VS Code
+- Intall Node
+
+  ## Terminal VS Code
+  - npm init -y
+  - npm i typescript @types/node -D
+  - npx tsc --init
+  - procurar sua versão do node, clickar no link ao lado direito e copiar o cógido para a pasta tsconfig.json (reparar nas alterações feita no meu código antes de copiar)
+  - https://github.com/tsconfig/bases
+  - npm i fastify @fastify/cors fastify-type-provider-zod zod
+  - npm run dev
