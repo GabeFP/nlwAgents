@@ -8,6 +8,12 @@
 
 ## Usando uma IA no projeto
 - tentar prever respostas automatizada para essas perguntas conforme são feitas e conforme o conteúdo daquela live foi feito até ali
-funciona da seguinte maneira: ficar gravando a live, a cada 10/20s pega o audio falado na live stream até ali, envia para uma IA para que ela faça a transcrição desse audio
-- depois pega a transcrição, alimenta um BD e quando o usuario fizer uma pergunta, a IA também é utilizada para tentar responder a pergunta desse usuário com algum conteúdo que já entregue pelo apresentador da stream
-- Ex: uma live de React, no inicio da live se explica o que é React e alguem aos 50min de live fala "Não sei o que é react" -  a ideia é que a IA consiga responder automaticamente essa pessoa e sempre deixando em aberto se precisa de uma interação pessoal
+#### Funciona da seguinte maneira: 
+- ficar gravando a live
+- a cada 10/20s pega o audio falado na live stream até ali
+- envia para uma IA para que ela faça a transcrição desse audio
+- depois pega a transcrição, alimenta um BD
+- quando o usuario fizer uma pergunta, a IA também é utilizada para tentar responder a pergunta desse usuário com algum conteúdo que já entregue pelo apresentador da stream
+#### Ex: 
+- uma live de React, no inicio da live se explica o que é React e alguem aos 50min de live fala "Não sei o que é react"
+- a ideia é que a IA consiga responder automaticamente essa pessoa e sempre deixando em aberto se precisa de uma interação pessoal
